@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "Lua.workspace.library": [
+        "/Users/patrickstruthers/.config/nvim",
+        "/Users/patrickstruthers/.local/share/nvim/site",
+        "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+        "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+        "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/opt/homebrew/Cellar/neovim/0.8.0/share/nvim/runtime",
+        "/opt/homebrew/Cellar/neovim/0.8.0/share/nvim/runtime/pack/dist/opt/matchit",
+        "/opt/homebrew/Cellar/neovim/0.8.0/lib/nvim",
+        "${3rd}/luassert/library"
+    ]
+}
