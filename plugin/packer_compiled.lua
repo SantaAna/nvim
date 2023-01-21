@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
+  undotree = {
+    loaded = true,
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
   ["vim-easymotion"] = {
     loaded = true,
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-easymotion",

@@ -25,4 +25,5 @@ return require('packer').startup(function(use)
 	use 'nvim-lualine/lualine.nvim'
 	use 'jose-elias-alvarez/null-ls.nvim'
 	use "windwp/nvim-autopairs"
+    use "mbbill/undotree"
 end)
