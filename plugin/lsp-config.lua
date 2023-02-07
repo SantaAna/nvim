@@ -55,6 +55,8 @@ require'lspconfig'.sumneko_lua.setup {
   },
 }
 
+require'lspconfig'.racket_langserver.setup{}
+
 require'lspconfig'.gopls.setup{}
 
 require'lspconfig'.rust_analyzer.setup{}
