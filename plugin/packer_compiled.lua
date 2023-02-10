@@ -204,10 +204,20 @@ _G.packer_plugins = {
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["vim-easymotion"] = {
     loaded = true,
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-easymotion",
     url = "https://github.com/easymotion/vim-easymotion"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 

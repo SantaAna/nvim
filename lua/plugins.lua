@@ -26,4 +26,6 @@ return require('packer').startup(function(use)
 	use 'jose-elias-alvarez/null-ls.nvim'
 	use "windwp/nvim-autopairs"
     use "mbbill/undotree"
+    use "tpope/vim-commentary"
+    use "tpope/vim-surround"
 end)
