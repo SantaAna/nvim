@@ -23,6 +23,8 @@ keymap('i', '<C-e>', '<ESC>', nore)
 keymap('n', '<C-l>', '<C-w>l', nore)
 keymap('n', '<C-h>', '<C-w>h', nore)
 keymap('n', '<C-q>', '<C-w>q', nore)
+keymap('n', '<C-d>', '<C-d>zz', nore)
+keymap('n', '<C-u>', '<C-u>zz', nore)
 
 -- Plugin mappings
 keymap('n', '<leader>t', '<cmd>NvimTreeToggle<cr>', nore)
