@@ -64,6 +64,9 @@ require'lspconfig'.rust_analyzer.setup{}
 require'lspconfig'.elixirls.setup{
 	on_attach = on_attach
 }
+require'lspconfig'.powershell_es.setup{
+	on_attach = on_attach
+}
 require'lspconfig'.tsserver.setup{
     on_attach = on_attach
 }
