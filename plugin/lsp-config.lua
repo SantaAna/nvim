@@ -7,6 +7,9 @@ vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)
 
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
 local on_attach = function(client, bufnr)
   -- Enable completion triggered by <c-x><c-o>
   vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
@@ -29,9 +32,10 @@ local on_attach = function(client, bufnr)
   vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
   vim.keymap.set('n', '<space>f', function() vim.lsp.buf.format { async = true } end, bufopts)
+  require("cmp_nvim_lsp").default_capabilities(capabilities)
 end
 
-require'lspconfig'.sumneko_lua.setup {
+require'lspconfig'.lua_ls.setup {
   on_attach = on_attach,
   settings = {
     Lua = {
@@ -62,6 +66,7 @@ require'lspconfig'.gopls.setup{}
 require'lspconfig'.rust_analyzer.setup{}
 
 require'lspconfig'.elixirls.setup{
+    capabilities = capabilities,
 	on_attach = on_attach
 }
 require'lspconfig'.powershell_es.setup{
@@ -76,6 +81,12 @@ require'lspconfig'.fsautocomplete.setup{
 require'lspconfig'.pyright.setup{
     on_attach = on_attach
 }
-require'lspconfig'.emmet_ls.setup{}
+require'lspconfig'.emmet_ls.setup{
+    filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less', "eelixir", "heex"}
+}
 
-require'lspconfig'.tailwindcss.setup{}
+require'lspconfig'.tailwindcss.setup{
+  userLanguages = {
+    eelixir = "html-eex",
+  }
+}
