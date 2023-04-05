@@ -78,6 +78,9 @@ require'lspconfig'.tsserver.setup{
 require'lspconfig'.fsautocomplete.setup{
     on_attach = on_attach
 }
+require'lspconfig'.svelte.setup{
+    on_attach = on_attach
+}
 require'lspconfig'.pyright.setup{
     on_attach = on_attach
 }
