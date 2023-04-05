@@ -88,6 +88,8 @@ require'lspconfig'.emmet_ls.setup{
     filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less', "eelixir", "heex"}
 }
 
+require'lspconfig'.prismals.setup{}
+
 require'lspconfig'.tailwindcss.setup{
   userLanguages = {
     eelixir = "html-eex",
