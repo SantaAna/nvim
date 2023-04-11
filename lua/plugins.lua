@@ -32,4 +32,6 @@ return require('packer').startup(function(use)
     use "tpope/vim-surround"
     use "romgrk/barbar.nvim"
     use "vimwiki/vimwiki"
+    use "christoomey/vim-tmux-navigator"
+    use "xiyaowong/transparent.nvim"
 end)

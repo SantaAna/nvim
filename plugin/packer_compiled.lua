@@ -76,7 +76,7 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["barbar.nvim"] = {
     loaded = true,
-    path = "/home/patrick/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
   ["cmp-buffer"] = {
@@ -101,7 +101,7 @@ _G.packer_plugins = {
   },
   ["cmp-vsnip"] = {
     loaded = true,
-    path = "/home/patrick/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   ["dracula.nvim"] = {
@@ -126,7 +126,7 @@ _G.packer_plugins = {
   },
   ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/patrick/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
     url = "https://github.com/onsails/lspkind-nvim"
   },
   ["lualine.nvim"] = {
@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["transparent.nvim"] = {
+    loaded = true,
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/transparent.nvim",
+    url = "https://github.com/xiyaowong/transparent.nvim"
+  },
   ["trouble.nvim"] = {
     loaded = true,
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/trouble.nvim",
@@ -224,9 +229,14 @@ _G.packer_plugins = {
     path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/patrick/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    path = "/Users/patrickstruthers/.local/share/nvim/site/pack/packer/start/vim-vsnip",
     url = "https://github.com/hrsh7th/vim-vsnip"
   },
   vimwiki = {
